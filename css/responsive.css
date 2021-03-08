@@ -1,0 +1,281 @@
+@media screen and (max-width: 3840px){  /* 3840px X 2160px  */
+  img,iframe{
+	  max-width:100%;
+	  height:auto;
+  }
+}
+@media screen and (max-width: 2560px){  /*  2560px X 1600px  */
+  
+}
+
+
+@media screen and (max-width:1920px){   /*  1920px X 1080px  */
+  
+}
+
+@media screen and (max-width: 1800px){
+ .outer_wrapper {max-width: 100%;padding: 0 25px;} 
+
+
+
+}
+
+@media screen and (max-width: 1750px){
+
+}
+
+@media screen and (max-width: 1680px){  /*  1680px X 1050px  */
+
+}
+
+@media screen and (max-width: 1600px){   /*  1600px X 900px  */
+
+}
+
+@media screen and (max-width: 1540px){   /*  1540px X 800px  */
+	
+}
+
+@media screen and (max-width: 1520px){
+	
+}
+
+@media screen and (max-width: 1500px){
+
+}
+
+@media screen and (max-width: 1440px){
+
+}
+
+@media screen and (max-width: 1366px){   /*  1366px X 768px  */
+h1 {font-size: 108px;line-height: 112px;	}
+.banner h6 {font-size: 22px;line-height: 26px;}
+.title h3 {  font-size: 20px; line-height: 21px;}
+.software_box { padding: 31px 18px;}
+.flag{ right:18px;}	
+	
+	
+	
+	
+	
+}
+@media screen and (max-width: 1280px){
+.wrapper, .outer_wrapper {max-width: 100%; padding: 0 20px;}
+.page_content {padding-top: 50px;margin-bottom: 60px;}
+.content_left { padding: 35px 20px;}
+.content_area h5 br{ display:none;}
+
+}
+
+@media screen and (max-width: 1200px){
+.com_btn { padding: 0 7px; font-size: 11px;}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1024px){   /*  1024px X 768px  */
+.img_box { margin-right: 20px;}
+.img_box img {  max-width: 140px;}
+.show_note, .date { font-size: 13px; line-height: 14px;}
+.date i { font-size: 18px;}
+.software_box { padding: 20px 18px;}
+	
+	
+	
+	
+	
+	
+	
+}
+@media only screen and (min-width : 801px) and (max-width : 1024px) {
+	
+}
+
+@media screen and (max-width: 800px){  /*  768px X 1024px  */
+.top_gap { height: 70px;}
+.banner_img {display: block;height: 230px;object-fit: cover;-webkit-object-fit: cover;}
+h1 { font-size: 88px;line-height: 92px;letter-spacing: 10px;}
+.content_box { display: unset;}
+.img_box { margin-right: 0; margin-bottom:25px;}
+
+.content_left, .anti_virus .content_left {float: none; width: 100%;}
+
+header { padding: 10px 0;}
+header .logo { width: 90px;}
+nav {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+	width: 320px;
+    background: #4f213a;
+    z-index: 5;
+    padding: 20px;
+    transform-origin: left;
+    transform: scaleX(0);
+	-webkit-transform: scaleX(0);
+	-webkit-transition: all ease 500ms;
+	transition: all ease 500ms;
+}
+nav .logo{ display:block;}
+nav.open {
+	transform: scaleX(1);
+	-webkit-transform: scaleX(1);
+}
+.hamber_menu {
+	display: block;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	cursor: pointer;
+	-webkit-transition: all ease 500ms;
+	transition: all ease 500ms;
+	border-radius: 50%;
+	padding: 7px;
+	box-sizing: border-box;margin-top: 7px; margin-right:-7px;
+}
+.hamber_menu span{
+	display:block;
+	width:100%;
+	height:3px;
+	margin: 0 0 4px 0;
+	background:#fff;
+	border-radius:5px;
+	-webkit-transition:all ease 500ms;
+	transition:all ease 500ms;
+}
+.hamber_menu.up span { height: 3px;}
+.hamber_menu span:nth-child(2){width:65%;}
+.hamber_menu:hover span:nth-child(2){width:100%;}
+.hamber_menu.up span:nth-child(2) {opacity:0;}
+.hamber_menu.up span:first-child {-webkit-transform: rotate(45deg);transform: rotate(45deg);margin-top: 8px;}
+.hamber_menu.up span:last-child {-webkit-transform: rotate(-45deg);transform: rotate(-45deg);margin-top: -14px;}
+.blur {-webkit-filter: blur(5px);filter: blur(5px);}
+nav ul { margin-top: 30px;}
+nav ul li a { padding: 10px 0; display:block;border-bottom: 1px solid #6e495f;border-right: none;}
+nav ul li {display: block;}	
+nav ul li:last-child a{ border-bottom: none;}	
+	
+.updates, .asid_bar .fa-times {display: block !important;}
+.updates { position: absolute;top: 0; right: 20px;z-index: 1;}	
+.page_content .wrapper {position: relative;}	
+.updates {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    z-index: 1;
+    margin: 0;
+    box-shadow: 0 0 12px 2px rgb(0 0 0 / 10%);
+	-webkit-box-shadow: 0 0 12px 2px rgb(0 0 0 / 10%);
+}
+.anti_virus .asid_bar, .asid_bar {
+    width: 350px;
+    position: fixed;
+    top: 0;
+    right: -370px;
+    bottom: 0;z-index: 6;
+	-webkit-transition: all ease 500ms;
+	transition: all ease 500ms;
+	 border-radius: 10px 0 0 0;
+}
+.asid_bar.open { right:0;}
+.asid_bar .fa-times {
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    color: #4f213a;
+    font-size: 17px;
+    cursor: pointer;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50px;
+}
+.as_header { border-radius: 10px 0 0 0;}
+.artical_scroll, .anti_virus .artical_scroll {height: 90vh;}
+
+
+
+
+	
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 750px){   /*  736px X 414px  */
+
+}
+@media screen and (max-width: 750px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 700px){   /*  667px X 375px  */
+.software_box { width: 48%;}
+	
+	
+	
+}
+@media screen and (max-width: 650px){
+
+}
+@media screen and (max-width: 600px){   /*  568px X 320px  */
+
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+	
+}
+
+@media screen and (max-width: 550px){
+
+}
+@media screen and (max-width: 500px){
+h1 { font-size: 58px;line-height: 62px;letter-spacing: 5px;}
+.banner_img {height: 170px;}
+.img_box img { margin: 0 auto;}
+.content_area {text-align: center;}
+h2 { font-size: 25px; line-height: 31px;}
+.content_area h5 {font-size: 17px; line-height: 22px;}
+.flag { right: 0; top: 0; transform: unset;}
+.software_box {padding: 20px 10px;}
+
+
+}
+@media screen and (max-width: 414px){    /*  414px X 660px  */
+.software_box {width: 100%;}
+
+
+
+
+}
+@media screen and (max-width: 400px){    /*  375px X 600px  */
+nav { width: 260px;}
+.asid_bar {width: 270px;}
+.artical_scroll, .anti_virus .artical_scroll {  height: 80vh;}
+article h5 { font-size: 17px;line-height: 21px;}
+p { font-size: 14px; line-height: 22px;}
+article a {font-size: 14px; line-height: 17px;}
+.wrapper, .outer_wrapper { padding: 0 15px;}
+.content_left { padding: 35px 15px;}
+
+
+
+
+
+}
+@media screen and (max-width: 360px){
+
+}
+@media screen and (max-width: 320px){   /*  320px X 568px  */
+
+}
